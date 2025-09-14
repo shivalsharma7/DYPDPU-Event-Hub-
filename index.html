@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+  <title>College Events Hub</title>
+  <link rel="stylesheet" href="gdg.css">
+</head>
+<body>
+  <header>
+    <h1> Events Hub</h1>
+    <p>Stay updated with all upcoming events at your college!</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Events</a>
+    <a href="#">Register</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h2>Upcoming Events</h2>
+    <div class="events">
+      <div class="event-card">
+        <p id="heading">Google Developer Group</p>
+        <h3>Recruitment</h3>
+        <p>A celebration of technology with coding competitions, workshops, and hackathons.</p>
+      </div>
+
+      <div class="event-card">
+       <p id="heading">Zion</p>
+        <h3>DJ Night</h3>
+        <p>Showcasing the diversity of talent with music, dance, and drama performances.</p>
+      </div>
+
+      <div class="event-card">
+       <p id="heading">Parakram</p>
+        <h3>Parakram 2025</h3>
+        <p>Join in for an exciting lineup of sports tournaments and activities.</p>
+      </div>
+    </div>
+
+    <form>
+      <h2>Register for an Event</h2>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="number" placeholder="Mobile Number" required>
+      <select required>
+        <option value="">-- Select Event --</option>
+        <option value="techfest">GDG-Recruitment</option>
+        <option value="cultural">DJ Night</option>
+        <option value="sports">Parakram 2025</option>
+      </select>
+      <button type="submit">Next</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>© 2025 DYPDPU Events Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
